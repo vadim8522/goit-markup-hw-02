@@ -1,521 +1,229 @@
+:root{
+    --section-team-background-color: #F5F4FA;
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --accent-color: #2196F3;
+    --border-background-color: #2f303a
+}
 .body{
-    list-style: none;
+    font-weight: 400;
+    font-size: 14px;   
     color: #212121;
-    font-family:'Roboto';
+    font-family: var(--primary-font);
     font-style: normal;
 }
+li {    list-style-type: none;}
+.hero{
+  background-color: var(--border-background-color);}
 .logo-1{
     text-decoration: none;
-    position: absolute;
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 24px;
-    
-    font-family: 'Raleway';
+    font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     
     letter-spacing: 0.03em;}
-.studio-1:hover{color:blue}
-.studio-1:focus{color:blue}
+.studio-1:active{color: var(--accent-color);}
+.studio-1:hover{color: var(--accent-color);}
+.studio-1:focus{color: var(--accent-color);}
 .studio-1{
     text-decoration: none;
-    position: absolute;
-    width: 45px;
-    height: 16px;
-    left: 453px;
-    top: 32px;
-    
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     color: #212121;}
-.portfolio-1:hover{color:blue}
-.portfolio-1:focus{color:blue}
+.portfolio-1:active{color: var(--accent-color);}
+.portfolio-1:hover{color: var(--accent-color);}
+.portfolio-1:focus{color: var(--accent-color);}
 .portfolio-1{
     text-decoration: none;
-    position: absolute;
-    width: 72px;
-    height: 16px;
-    left: 548px;
-    top: 32px;
-    
     font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
 color: #212121;}
-.contacts-1:hover{color:blue}
-.contacts-1:focus{color:blue}
+.contacts-1:active{color: var(--accent-color);}
+.contacts-1:hover{color:var(--accent-color);}
+.contacts-1:focus{color:var(--accent-color);}
 .contacts-1{
     text-decoration: none;
-    position: absolute;
-    width: 64px;
-    height: 16px;
-    left: 670px;
-    top: 32px;
-    
     font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     color: #212121;}
+.visually-hidden{
+      white-space: nowrap;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      border: 0;
+      padding: 0;
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      margin: -1px;}
 .efective{
-    position: absolute;
-    width: 696px;
-    height: 120px;
-    left: 452px;
-    top: 280px;
-    
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
-    
-    text-align: center;
+    line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    
     color: #FFFFFF;}
-.mail-1:hover{color:blue}
-.mail-1:focus{color:blue}
+.mail-1:active{color: var(--accent-color);}
+.mail-1:hover{color:var(--accent-color);}
+.mail-1:focus{color:var(--accent-color);}
 .mail-1 {
-    position: absolute;
     text-decoration: none;
-    width: 135px;
-    height: 16px;
-    left: 1078px;
-    top: 32px;
-    
     font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     color:#757575}
-.number-1:focus{color:blue}
-.number-1:hover{color:blue}
+.number-1:active{color: var(--accent-color);}
+.number-1:focus{color:var(--accent-color);}
+.number-1:hover{color:var(--accent-color);}
 .number-1 {
     text-decoration: none;
-    position: absolute;
-    width: 122px;
-    height: 16px;
-    left: 1263px;
-    top: 32px;
-    
     font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
-    
     color: #757575;}
-.mail-2:hover{color:blue}
-.mail-2:focus{color:blue}
+.mail-2:active{color: var(--accent-color);}
+.mail-2:hover{color:var(--accent-color);}
+.mail-2:focus{color:var(--accent-color);}
 .mail-2{
-    position: absolute;
-    width: 231px;
-    height: 21px;
-    left: 215px;
-    top: 2235px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    
+    line-height: 1.7px;
     letter-spacing: 0.03em;
-    
     color: rgba(255, 255, 255, 0.6);}
 .logo-2 {
     text-decoration: none;
-    position: absolute;
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 2154px;
-    
-    font-family: 'Raleway';
-    font-style: normal;
+    font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
-    
+    line-height: 1.2;
     letter-spacing: 0.03em;}
 .button {
     cursor: pointer;
-    position: absolute;
-    width: 216px;
-    height: 50px;   
-    left: 692px;
-    top: 430px;
-        
+    font-family: inherit;
+    color: #FFFFFF;
+    border: none;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px}
-
-.textcolor{color: #2196F3;}
+    line-height: 1.9}
+.textcolor{color: var(--accent-color);}
 .textcolor-1{color: #212121;}
-.bg{
-    position: absolute;
-    width: 1600px;
-    height: 600px;
-    left: 0px;
-    top: 80px;
-    
-    background: #2F303A;}
+.textcolor-2{color: #FFFFFF;}
 .header-1{
-    position: absolute;
-    width: 270px;
-    height: 16px;
-    left: 215px;
-    top: 774px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.03em;
     text-transform: uppercase;}
 .header-2{
-    position: absolute;
-    width: 270px;
-    height: 16px;
-    left: 515px;
-    top: 774px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    
     color: #212121;}
 .header-3{
-    position: absolute;
-    width: 270px;
-    height: 16px;
-    left: 815px;
-    top: 774px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    
     color: #212121;}
 .header-4{
-    position: absolute;
-    width: 270px;
-    height: 16px;
-    left: 1115px;
-    top: 774px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    
     color: #212121;}
 .paragraph-1{
-    position: absolute;
-    width: 270px;
-    height: 72px;
-    left: 215px;
-    top: 800px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    
+    line-height: 1.7;
     letter-spacing: 0.03em;
-    
     color: #757575;}
 .paragraph-2{
-    position: absolute;
-    width: 270px;
-    height: 48px;
-    left: 515px;
-    top: 800px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    
+    line-height: 1.7;
     letter-spacing: 0.03em;
-    
     color: #757575;}
 .paragraph-3{
-    position: absolute;
-    width: 270px;
-    height: 48px;
-    left: 815px;
-    top: 800px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    
+    line-height: 1.7;
     letter-spacing: 0.03em;
-    
     color: #757575;}
 .paragraph-4{
-    position: absolute;
-    width: 270px;
-    height: 72px;
-    left: 1115px;
-    top: 800px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    
+    line-height: 1.7;
     letter-spacing: 0.03em;
-    
     color: #757575;}
-.img-1 {
-    position: absolute;
-    width: 370px;
-    height: 294px;
-    left: 215px;
-    top: 1058px;}
-.img-2{
-    position: absolute;
-    width: 370px;
-    height: 294px;
-    left: 615px;
-    top: 1058px;}
-.img-3{
-    position: absolute;
-    width: 370px;
-    height: 294px;
-    left: 1015px;
-    top: 1058px;}
-.fon-1{
-    list-style: none;
-    position: absolute;
-    width: 270px;
-    height: 368px;
-    left: 215px;
-    top: 1632px;
-
-background: #FFFFFF;
-}
-.igor{
-    position: absolute;
-    width: 270px;
-    height: 260px;
-    left: 215px;
-    top: 1632px;
-    border-radius: 0px;}
-.fon-2{position: absolute;
-    width: 270px;
-    height: 368px;
-    left: 515px;
-    top: 1632px;
-    
-    background: #FFFFFF;
-}
-.olga{position: absolute;
-    width: 270px;
-    height: 260px;
-    left: 515px;
-    top: 1632px;
-    border-radius: 0px;}
-.fon-3{position: absolute;
-    width: 270px;
-    height: 368px;
-    left: 815px;
-    top: 1632px;
-    
-    background: #FFFFFF;
-}
-.mikola{position: absolute;
-    width: 270px;
-    height: 260px;
-    left: 815px;
-    top: 1632px;
-    border-radius: 0px;}
-.mihail{position: absolute;
-    width: 270px;
-    height: 260px;
-    left: 1115px;
-    top: 1632px;}
-.fon-4{position: absolute;
-    width: 270px;
-    height: 368px;
-    left: 1115px;
-    top: 1632px;
-    background: #FFFFFF;}
 .igorh {
-    position: absolute;
-    width: 129px;
-    height: 19px;
-    left: 286px;
-    top: 1922px;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
-    text-align: center;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     color: #212121;}
 .igorp {
-    position: absolute;
-    width: 130px;
-    height: 19px;
-    left: 285px;
-    top: 1951px;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 18px;    
-    text-align: center;
+    line-height: 1.1;    
     letter-spacing: 0.03em;
     color: #757575;}
-.olgah{position: absolute;
-    width: 104px;
-    height: 19px;
-    left: 598px;
-    top: 1922px;
-    font-family: 'Roboto';
-    font-style: normal;
+.olgah{
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
-    text-align: center;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     color: #212121;}
-.olgap{position: absolute;
-    width: 147px;
-    height: 19px;
-    left: 577px;
-    top: 1951px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+.olgap{
     font-size: 16px;
-    line-height: 19px;
-    text-align: center;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     color: #757575;}
-.mikolah{position: absolute;
-    width: 130px;
-    height: 19px;
-    left: 885px;
-    top: 1922px;
-    font-family: 'Roboto';
-    font-style: normal;
+.mikolah{
+
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;    
-    text-align: center;
+    line-height: 1.2;    
     letter-spacing: 0.03em;
     color: #212121;}
-.mikolap{position: absolute;
-    width: 76px;
-    height: 19px;
-    left: 912px;
-    top: 1951px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+.mikolap{
     font-size: 16px;
-    line-height: 19px;
-    text-align: center;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     color: #757575;}
-.mihailh{position: absolute;
-    width: 145px;
-    height: 19px;
-    left: 1178px;
-    top: 1922px;
-    font-family: 'Roboto';
-    font-style: normal;
+.mihailh{
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
-    text-align: center;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     color: #212121;}
-.mihailp{position: absolute;
-    width: 87px;
-    height: 19px;
-    left: 1207px;
-    top: 1951px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+.mihailp{
     font-size: 16px;
-    line-height: 19px;
-    text-align: center;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     color: #757575;}
-.footer-br {
-    position: absolute;
-    width: 1600px;
-    height: 252px;
-    left: 0px;
-    top: 2094px;
-    
-    background: #2F303A;}
-.map-1:focus{color:blue;}
-.map-1:hover{color:blue}
+.map-1:focus{color:var(--accent-color);}
+.map-1:hover{color:var(--accent-color);}
 .map-1{
-    position: absolute;
-    width: 231px;
-    height: 21px;
-    left: 215px;
-    top: 2205px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
-    
+    line-height: 1.7;
     letter-spacing: 0.03em;
-    
     color: #FFFFFF;}
-.number-2:hover{color:blue}
-.number-2:focus{color:blue}
-.number-2{position: absolute;
-    width: 231px;
-    height: 21px;
-    left: 215px;
-    top: 2265px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+.number-2:hover{color:var(--accent-color);}
+.number-2:focus{color:var(--accent-color);}
+.number-2{
     font-size: 14px;
-    line-height: 24px;
-    
+    line-height: 1.7;
     letter-spacing: 0.03em;
-    
     color: rgba(255, 255, 255, 0.6);}
+.button-3:active{background-color: var(--accent-color);}
+.button-3:hover{background-color: var(--accent-color);}
+.button-3:focus{background-color: var(--accent-color);}
+.button-3 {
+    cursor: pointer;
+    font-family: inherit;
+    color: #212121;
+    background: #F5F4FA;
+    border-radius: 4px;
+    border-color: #F5F4FA;}
+.footer {background-color: #2F303A;}
+.team{background-color: var(--section-team-background-color);}
